@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title >Expedia</title>
+	<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body ng-app='myapp'>
+	<ng-view></ng-view>
+	<style>
+		.bg-4 {
+			background-color: #2f2f2f ;
+			color: #ffffff ;
+		}
+	</style>
+	<footer class="container-fluid bg-4 text-center">
+		<p>  Expedia offer </p>
+	</footer>
+
+	<script src="lib/jquery.js"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular-route/angular-route.js"></script>
+	<script src="app/hotel/hotel.js"></script>
+	<script src="app/services.js"></script>
+	<script src="app/app.js"></script>
+	
+	
+</body>
+</html>
